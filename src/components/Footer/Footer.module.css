@@ -1,0 +1,13 @@
+.footer {
+  width: 100%;
+  padding: 20px 0;           
+  color: #C4C4C4;
+  background-color: #000000;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+}
+
+.footer div {
+  max-width: 1024px;       
+  margin: 0 auto;
+}
