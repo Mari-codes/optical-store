@@ -1,0 +1,100 @@
+.aboutSection {
+  background-color: #F8F7FF;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.aboutContainer p {
+  line-height: 32px;
+}
+
+.textContentContainer {
+  max-width: 1024px;
+}
+
+.textContentContainer p {
+  padding: 20px;
+}
+
+.boxCards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  max-width: 1024px;
+}
+
+.boxCards img,
+.card {
+  width: 50%;
+  border: 1px solid #a2adad;
+  max-height: 300px;
+}
+
+.boxCards img {
+  object-fit: cover;
+}
+
+.limitarSecao {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  gap: 30px;
+}
+
+.card h4 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-family: 'Anybody', cursive;
+  line-height: 42px;
+  letter-spacing: 5px;
+}
+
+.card p {
+  font-size: 22px;
+  color: #4a4a4a;
+}
+
+@media (max-width: 768px) {
+  .secaoSobre {
+    padding: 60px 20px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card h4 {
+    font-size: 22px;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .secaoSobre {
+    padding: 60px 10px;
+  }
+
+  .boxCards {
+    flex-direction: column;
+  }
+
+  .boxCards img,
+  .card {
+    width: 100%;
+    height: 300px;
+  }
+}
