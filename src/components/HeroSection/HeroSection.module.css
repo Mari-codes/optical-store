@@ -1,0 +1,64 @@
+.heroSection {
+  height: 90vh;
+  background: linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100%);
+  background-image: url('/assets/capa.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: left;
+}
+
+.heroContent {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; 
+  gap: 20px;
+}
+
+.heroContent p,
+.heroContent h1 {
+  max-width: 500px;
+  font-family: 'Anybody', cursive;
+}
+
+.heroContent p {
+  font-size: 36px;
+  color: rgb(196, 196, 196);
+}
+
+.heroContent h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 60px;
+  margin: 0;
+  line-height: 70px;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .heroContent h1 {
+    font-size: 40px;
+    max-width: 350px;
+  }
+  .heroContent p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .heroSection {
+    background-position: 89% center;
+  }
+  .heroContent {
+    background-color: rgba(0,0,0,0.6);
+  }
+}
