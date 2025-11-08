@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.productsSection h3{
+  font-size: 35px;
+}
+
 .productsContainer {
   display: flex;
   flex-direction: row;
